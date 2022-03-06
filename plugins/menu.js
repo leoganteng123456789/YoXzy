@@ -205,20 +205,20 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *YoXzy*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*klik Ya Cuy*",
+                        "buttonText": "*Jan Di Klick Cuy*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
                                 "rows": [{
-                                    "title": "Status Bot",
+                                    "title": "|🛠| Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "Rules",
+                                    "title": "|❗| Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                 }, {
-                                    "title": "Sewa bot - Premium",
+                                    "title": "|👑| Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
                                 }],
